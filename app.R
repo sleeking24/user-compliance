@@ -1,6 +1,6 @@
 library(shiny)
 
-load(file='uc.Rdata')
+load("app/uc.Rdata")
 # uc
 names<-uc[[1]]
 
