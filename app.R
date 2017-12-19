@@ -1,4 +1,7 @@
 
+library (civis)
+library (shiny)
+
 load("app/uc.Rdata")
 # uc
 names<-uc[[1]]
