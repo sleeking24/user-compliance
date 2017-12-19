@@ -1,5 +1,3 @@
-library(shiny)
-library(civis)
 
 load("app/uc.Rdata")
 # uc
