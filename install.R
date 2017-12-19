@@ -11,4 +11,4 @@ query<-(sql("select primary_organization_name as Organization_Name, primary_orga
             order by 1"))
 uc<-read_civis(query,database="redshift-general")
 
-save(uc,"App/uc.Rdata")
+save(uc, file="App/uc.Rdata")
