@@ -1,6 +1,7 @@
 
 install.packages(c('civis',
-                   'shiny'),
+                   'shiny',
+                    'DT'),
                  repos='https://cran.rstudio.com/')
 
 library(civis)
