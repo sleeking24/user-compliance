@@ -1,5 +1,5 @@
 
-library (shiny)
+library(shiny)
 
 load("uc.Rdata")
 # uc
