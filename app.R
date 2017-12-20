@@ -1,7 +1,7 @@
 
 library (shiny)
 
-load("app/uc.Rdata")
+load("uc.Rdata")
 # uc
 names<-uc[[1]]
 
