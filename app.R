@@ -1,5 +1,4 @@
 
-library (civis)
 library (shiny)
 
 load("app/uc.Rdata")
