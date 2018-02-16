@@ -16,7 +16,7 @@ ui<-fluidPage(
 server<-function(input,output){
   output$data<-DT::renderDataTable(uc[uc$organization_name == input$grp, ])
   
-}
+ session$allowReconnect("force")}
 shinyApp(ui=ui,server=server)
 
 
