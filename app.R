@@ -25,7 +25,7 @@ ui<-fluidPage(
 )
 
 
-server<-function(input,output){
+server<-function(input,output,session){
   output$data<-DT::renderDataTable(uc[uc$organization_name == input$grp, ])
   
  session$allowReconnect("force")}
