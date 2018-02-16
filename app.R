@@ -15,9 +15,6 @@ order by 1
 "))
 uc<-read_civis(query,database="redshift-general")
 
-save(uc,file="app/uc.Rdata")
-
-load("uc.Rdata")
 # uc
 names<-uc[[1]]
 
