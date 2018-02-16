@@ -20,7 +20,6 @@ names<-uc[[1]]
 
 ui<-fluidPage(
   tags$h1("User Compliance Report"),
-  selectInput("grp","Choose a Org",choices=names),
   DT::dataTableOutput("data")
 )
 
